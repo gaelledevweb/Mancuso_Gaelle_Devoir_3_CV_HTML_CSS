@@ -1,0 +1,41 @@
+footer {
+    background-color: #17abb3;
+}
+
+#footer img {
+    width: 30px;
+    height: 30px;
+    color: #ffffff;
+    border: 0;
+}
+
+#footer {
+    display: flex;
+    flex-direction: column;
+}
+
+.site-footer {
+    text-align: center;
+    padding: 20px 0 0;
+}
+
+.site-footer img {
+    padding: 0 10px;
+    border-radius: 0;
+    opacity: 1;
+    transition: opacity 0.3s ease-in-out;
+}
+
+.site-footer img:hover {
+    opacity: 0.5;
+}
+
+.site-update {
+    display: flex;
+    justify-content: center;
+}
+
+small {
+    font-style: italic;
+    color: #ffffff;
+}
